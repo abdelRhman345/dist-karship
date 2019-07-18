@@ -1,0 +1,1 @@
+$(function(){"use strict";$(".navbar-nav li a").click(function(){$("html, body").animate({scrollTop:$($(this).data("value")).offset().top-10},1e3)}),$(window).scroll(function(){500<=$(window).scrollTop()?$(".scroll-top").fadeIn():$(".scroll-top").fadeOut()}),$(".scroll-top").click(function(){$("html, body").animate({scrollTop:"0"},1500)})});
